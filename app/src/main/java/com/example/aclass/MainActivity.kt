@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val dataUser = DataUser("hong", 21)
         val dataUser1 = dataUser.copy("kim", 10)
+        val dataUser2 = dataUser.copy("choi", 30)
     }
 }
 
